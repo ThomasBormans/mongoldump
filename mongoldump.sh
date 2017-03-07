@@ -47,7 +47,7 @@ then
 	command+=" $path";
 # When path is defined and state is export
 # Set parameter and concat path
-elif [[ $path != "" && $state == "export" ]]
+elif [[ $path != "" && $state == "dump" ]]
 then
 	command+=" --out $path";
 fi
